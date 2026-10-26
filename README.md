@@ -46,6 +46,10 @@ Save the file and make sure its name is `start.bat`, not `start.bat.txt`.
 
 ### 🔌 Choosing a Port
 
+## IF YOU DECIDE TO CHANGE
+## THE PORT AFTER YOU PLAYED 
+## YOUR GAME DATA WILL BE GONE
+
 Look at this part of the .bat code:
 
 ```python
