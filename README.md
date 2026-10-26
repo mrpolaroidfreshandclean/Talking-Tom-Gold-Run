@@ -1,28 +1,125 @@
-# Talking Tom Gold Run - HTML Port
+# 🎮 Welcome to the Talking Tom Gold Run Tutorial!
 
-> **Credits:** Port developed by **@Task4z** and **@xdijd**.
+<img width="720" height="352" alt="Talking Tom Gold Run" src="https://github.com/user-attachments/assets/d9a9e2ac-25c3-4a87-98d6-0641ff0baef4" />
 
-<img width="720" height="352" alt="Banner" src="https://github.com/user-attachments/assets/d9a9e2ac-25c3-4a87-98d6-0641ff0baef4" />
-
----
+This tutorial will teach you how to run **Talking Tom Gold Run** locally using a simple Python HTTP server.
 
 ## ⚠️ Requirements
-<span style="color: red;">**You will need to download Python!**</span> (Because you need to run a local server to play).  
-🔗 [Download Python here](https://www.python.org/)
+
+You will need to install **Python** because the game requires a local web server to run.
+
+**Download Python here:** https://www.python.org/
+
+> **Note:** During installation on Windows, make sure to check **"Add Python to PATH"** if that option is available.
 
 ---
 
-## 🚀 How to Run the Game
+## 📁 Step 1 — Locate the Game Files
 
-### Step 1: Open the Game Files
-Go to the folder where your game files are located.
+First, navigate to the folder containing the Talking Tom Gold Run game files.
 
 <img width="612" height="377" alt="Game Files" src="https://github.com/user-attachments/assets/5297349f-7d44-48a3-9340-ab02017bd1b4" />
 
+Make sure you are inside the correct directory before continuing.
+
 ---
 
-### Step 2: Create a Start Script (`.bat`)
-Create a new text file inside the folder, paste the code below, and save it as **`start.bat`**:
+## ⚙️ Step 2 — Create the Start Script
+
+Inside the game folder, create a new file named `start.bat`.
+
+Open it with a text editor, such as Notepad, and paste the following code:
+
+```bat
+@echo off
+python -c "import mimetypes; from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer; mimetypes.add_type('text/javascript', '.mjs'); ThreadingHTTPServer(('127.0.0.1', 8111), SimpleHTTPRequestHandler).serve_forever()"
+pause
+```
+
+Save the file and make sure its name is `start.bat`, not `start.bat.txt`.
+
+### 📥 Prefer the ready-made script?
+
+You can download the script directly from the project repository:
+
+**[Download start.bat](https://github.com/mrpolaroidfreshandclean/Talking-Tom-Gold-Run/blob/main/start.ba)**
+
+You can also inspect the code before running it.
+
+### 🔌 Choosing a Port
+
+Look at this part of the code:
 
 ```python
-python -c "import mimetypes; from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer; mimetypes.add_type('text/javascript', '.mjs'); ThreadingHTTPServer(('127.0.0.1', 8111), SimpleHTTPRequestHandler).serve_forever()"
+ThreadingHTTPServer(('127.0.0.1', 8111), SimpleHTTPRequestHandler)
+```
+
+The number `8111` is the **port** used by the local server.
+
+If port `8111` is already in use, you can try another port, such as:
+
+- `8080`
+- `3000`
+- `8000`
+- `5500`
+
+For example, to use port `8080`, change the code to:
+
+```python
+ThreadingHTTPServer(('127.0.0.1', 8080), SimpleHTTPRequestHandler)
+```
+
+**Important:** Remember which port you selected. You will need it in the next step.
+
+### ▶️ Start the Server
+
+Double-click `start.bat` to launch the local server.
+
+A Command Prompt window will open. Keep this window open while playing the game.
+
+<img width="989" height="517" alt="Local Server Running" src="https://github.com/user-attachments/assets/7ea4e177-b7ee-4064-8902-fa81b96b08d7" />
+
+If an error appears, make sure Python is installed correctly and that the selected port is available.
+
+---
+
+## 🌐 Step 3 — Open the Game in Your Browser
+
+Now open your web browser and enter the following address:
+
+```text
+http://localhost:8111
+```
+
+If you selected a different port, replace `8111` with your chosen port.
+
+**For example:**
+- Port `8111` → `http://localhost:8111`
+- Port `8080` → `http://localhost:8080`
+- Port `5500` → `http://localhost:5500`
+
+Press **Enter**, and the game should load in your browser!
+
+<img width="950" height="768" alt="Talking Tom Gold Run Running Locally" src="https://github.com/user-attachments/assets/35fe9907-adee-4793-8cf3-fdec90f8c795" />
+
+---
+
+## 🎉 That's It!
+
+You have successfully set up a local server for Talking Tom Gold Run!
+
+If the game doesn't load, double-check the following:
+
+- ✅ Python is installed correctly.
+- ✅ You are running `start.bat` from the correct game directory.
+- ✅ The Command Prompt window is still open.
+- ✅ You are using the correct port in your browser.
+- ✅ The required game files are present in the directory.
+
+### ❤️ Credits
+
+All credits go to **[@Task4z](https://github.com/Task4z)** and **[@xdijd](https://github.com/xdijd)** for their work on this project.
+
+This tutorial documents a way to run the game locally using Python.
+
+**Enjoy playing Talking Tom Gold Run!** 🎮
