@@ -13,7 +13,7 @@
 <img width="612" height="377" alt="image" src="https://github.com/user-attachments/assets/5297349f-7d44-48a3-9340-ab02017bd1b4" />
 
 2.Inside you need to create a .bat with this code inside (if you don't know how to make a .bat just search up)
-And you can Download that .bat here <span style="color: red;"># https://github.com/mrpolaroidfreshandclean/Talking-Tom-Gold-Run/blob/main/start.bat</span> (you can see the code inside it)
+And you can Download that .bat here https://github.com/mrpolaroidfreshandclean/Talking-Tom-Gold-Run/blob/main/start.ba (you can see the code inside it)
 
 python -c "import mimetypes; from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer; mimetypes.add_type('text/javascript', '.mjs'); ThreadingHTTPServer(('127.0.0.1', 8111), SimpleHTTPRequestHandler).serve_forever()"
 
