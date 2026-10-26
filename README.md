@@ -6,14 +6,14 @@
 <img width="720" height="352" alt="image" src="https://github.com/user-attachments/assets/d9a9e2ac-25c3-4a87-98d6-0641ff0baef4" />
 
 
-First you will need to download PYTHON! (you need to create a local server)
+<span style="color: red;"># You will need to download PYTHON! (because you will have to create a local server)</span>
 
-And then go to the game files
+1.then go to the game files
 
 <img width="612" height="377" alt="image" src="https://github.com/user-attachments/assets/5297349f-7d44-48a3-9340-ab02017bd1b4" />
 
-Inside you need to create a .bat with this code inside (if you don't know how to make a .bat just search up)
-And you can Download that .bat here https://github.com/mrpolaroidfreshandclean/Talking-Tom-Gold-Run/blob/main/start.bat (you can see the code inside it)
+2.Inside you need to create a .bat with this code inside (if you don't know how to make a .bat just search up)
+And you can Download that .bat here <span style="color: red;"># https://github.com/mrpolaroidfreshandclean/Talking-Tom-Gold-Run/blob/main/start.bat</span> (you can see the code inside it)
 
 python -c "import mimetypes; from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer; mimetypes.add_type('text/javascript', '.mjs'); ThreadingHTTPServer(('127.0.0.1', 8111), SimpleHTTPRequestHandler).serve_forever()"
 
