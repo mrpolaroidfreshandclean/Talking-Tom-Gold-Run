@@ -46,7 +46,7 @@ Save the file and make sure its name is `start.bat`, not `start.bat.txt`.
 
 ### 🔌 Choosing a Port
 
-Look at this part of the code:
+Look at this part of the .bat code:
 
 ```python
 ThreadingHTTPServer(('127.0.0.1', 8111), SimpleHTTPRequestHandler)
@@ -82,7 +82,7 @@ A Command Prompt window will open. Keep this window open while playing the game.
 Now open your web browser and enter the following address:
 
 ```text
-http://localhost:THESERVERPORT
+http://localhost:SERVERPORT
 ```
 
 **For example:**
@@ -97,6 +97,8 @@ Press **Enter**, and the game should load in your browser!
 ---
 
 ## 🎉 That's It!
+
+*Any problems? go here https://github.com/mrpolaroidfreshandclean/Talking-Tom-Gold-Run/issues*
 
 ### ❤️ Credits
 
