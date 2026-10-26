@@ -1,0 +1,1 @@
+python -c "import mimetypes; from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer; mimetypes.add_type('text/javascript', '.mjs'); ThreadingHTTPServer(('127.0.0.1', 8111), SimpleHTTPRequestHandler).serve_forever()"
