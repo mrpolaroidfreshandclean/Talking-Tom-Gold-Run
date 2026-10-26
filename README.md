@@ -6,7 +6,7 @@
 <img width="720" height="352" alt="image" src="https://github.com/user-attachments/assets/d9a9e2ac-25c3-4a87-98d6-0641ff0baef4" />
 
 
-<span style="color: red;"># You will need to download PYTHON! (because you will have to create a local server)</span>
+# <span style="color: red;"> You will need to download PYTHON! (because you will have to create a local server)</span>
 
 1.then go to the game files
 
