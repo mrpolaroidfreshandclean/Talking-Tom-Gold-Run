@@ -8,7 +8,7 @@
 
 # <span style="color: red;"> You will need to download PYTHON! (because you will have to create a local server)</span>
 
-1.then go to the game files
+1.go to the game files
 
 <img width="612" height="377" alt="image" src="https://github.com/user-attachments/assets/5297349f-7d44-48a3-9340-ab02017bd1b4" />
 
