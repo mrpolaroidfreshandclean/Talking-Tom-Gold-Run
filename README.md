@@ -10,10 +10,6 @@ You will need to install **Python** because the game requires a local web server
 
 **Download Python here:** https://www.python.org/
 
-> **Note:** During installation on Windows, make sure to check **"Add Python to PATH"** if that option is available.
-
----
-
 ## 📁 Step 1 — Locate the Game Files
 
 First, navigate to the folder containing the Talking Tom Gold Run game files.
