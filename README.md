@@ -46,9 +46,10 @@ Save the file and make sure its name is `start.bat`, not `start.bat.txt`.
 
 ### 🔌 Choosing a Port
 
-## IF YOU DECIDE TO CHANGE
-## THE PORT AFTER YOU PLAYED 
-## YOUR GAME DATA WILL BE GONE
+IF YOU DECIDE TO CHANGE
+THE PORT AFTER YOU PLAYED 
+YOUR GAME DATA WILL BE GONE
+*i will make a guide how to change the port without losing the game data*
 
 Look at this part of the .bat code:
 
