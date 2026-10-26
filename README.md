@@ -30,7 +30,7 @@ And when you open that .bat a cmd window will show up (it's like a debug)
 
 And remember you will need to remember the port that you selected
 
-Type in your browser localhost:port to play
+# type in your browser localhost:THELOCALSERVERPOT to play
 
 <img width="950" height="768" alt="image" src="https://github.com/user-attachments/assets/35fe9907-adee-4793-8cf3-fdec90f8c795" />
 
