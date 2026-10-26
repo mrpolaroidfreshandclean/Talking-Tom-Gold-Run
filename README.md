@@ -15,15 +15,15 @@ And you can Download that .bat here https://github.com/mrpolaroidfreshandclean/T
 python -c "import mimetypes; from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer; mimetypes.add_type('text/javascript', '.mjs'); ThreadingHTTPServer(('127.0.0.1', 8111), SimpleHTTPRequestHandler).serve_forever()"
 
 Do you see that ThreadingHTTPServer(('127.0.0.1', 8111) ? that 8111 it's a port, if that 8111 is closed you will need to change to another number:
-8080
-8000
-8111
-5500
-3000
+8080 3000 8000 8111 5500
 
 And when you open that .bat a cmd window will show up (it's like a debug)
 
 <img width="989" height="517" alt="image" src="https://github.com/user-attachments/assets/7ea4e177-b7ee-4064-8902-fa81b96b08d7" />
 
+And remember you will need to remember the port that you selected
+Type in your browser localhost:port to play
+
+<img width="950" height="768" alt="image" src="https://github.com/user-attachments/assets/35fe9907-adee-4793-8cf3-fdec90f8c795" />
 
 finally i got a port of talking tom gold run all credits go to @Task4z and @xdijd
