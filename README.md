@@ -7,7 +7,7 @@
 
 
 # <span style="color: red;"> You will need to download PYTHON! (because you will have to create a local server)</span>
-# https://www.python.org/
+Download Python here: https://www.python.org/
 
 1.go to the game files
 
