@@ -1,7 +1,10 @@
 ## Talking Tom Gold Run HTML PORT
 
 
-Welcome to the Talking-Tom-Gold-Run wiki!
+Welcome to the Talking-Tom-Gold-Run Tutorial!
+
+<img width="720" height="352" alt="image" src="https://github.com/user-attachments/assets/d9a9e2ac-25c3-4a87-98d6-0641ff0baef4" />
+
 
 First you will need to download PYTHON! (you need to create a local server)
 
